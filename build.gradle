@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:21.0.1'
+    implementation 'com.github.oshi:oshi-core:5.7.5'
+    implementation 'io.github.g00fy2:versioncompare:1.4.1'
+    implementation 'net.java.dev.jna:jna:5.8.0'
+    implementation 'net.java.dev.jna:jna-platform:5.8.0'
+}
