@@ -1,5 +1,9 @@
 # jUserDirectories
 
+[![Jitpack](https://jitpack.io/v/Dansoftowner/jUserDirectories.svg)](https://jitpack.io/#Dansoftowner/jUserDirectories)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Dansoftowner/jUserDirectories)](https://github.com/Dansoftowner/jUserDirectories)
+[![License](https://img.shields.io/github/license/Dansoftowner/jUserDirectories)](https://github.com/Dansoftowner/jUserDirectories/blob/master/LICENSE)
+
 Java library for detecting the path of the common user directories:
 - Documents
 - Downloads
@@ -27,7 +31,18 @@ System.out.println("Desktop directory: " + userDirectories.desktopDirectoryPath(
 
 ## Using with a build system
 
-...
+### Gradle example
+
+```groovy
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.Dansoftowner:jUserDirectories:1.0'
+}
+```
 
 ## Used third-party libraries
 
